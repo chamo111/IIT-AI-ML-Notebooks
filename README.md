@@ -1,7 +1,7 @@
 # IIT-AI-ML-Notebooks
 A curated set of notebooks developed during my IIT course, covering fundamental concepts, coding practice, and applied machine learning experiments.
 
-File: 1. Titanic_DT.ipynb
+## File: 1. Titanic_DT.ipynb
 
 This notebook explores the Titanic dataset and builds a Decision Tree Classifier to predict passenger survival. It includes a complete end-to-end machine learning workflow, covering everything from data preprocessing to model evaluation and visualization.
 
@@ -40,7 +40,7 @@ Outcome
 This notebook highlights how Linear Regression can be used for predicting continuous values such as house prices. It serves as a foundational example for exploring more advanced regression techniques in future notebooks.
 
 
-File: 3. Iris_Dataset_Simple_Neural_Network.ipynb
+## File: 3. Iris_Dataset_Simple_Neural_Network.ipynb
 
 This notebook builds a simple Neural Network classifier using TensorFlow/Keras to classify the Iris dataset into its three species. It demonstrates the full deep-learning workflow, including preprocessing, one-hot encoding, neural network design, training, and evaluation.
 
@@ -66,7 +66,7 @@ Outcome
 This notebook demonstrates the fundamental steps for creating a neural network classifier using TensorFlow/Keras. It provides a clear introduction to deep learning concepts such as activation functions, feature scaling, one-hot encoding, and model evaluation.
 
 
-File: 4. Titanic-Neural_Network.ipynb
+## File: 4. Titanic-Neural_Network.ipynb
 
 This notebook builds a Neural Network classifier to predict Titanic passenger survival using TensorFlow/Keras. It extends the earlier Decision Tree approach by applying a deep-learning model for binary classification.
 
