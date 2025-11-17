@@ -32,8 +32,8 @@ Key Steps Covered
 - Trained a Linear Regression model
 - Generated predictions on the test set
 - Evaluated model performance using:
-- Mean Squared Error (MSE)
-- R-squared score (R²)
+    - Mean Squared Error (MSE)
+    - R-squared score (R²)
 
 Outcome
 
