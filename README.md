@@ -64,3 +64,27 @@ Key Steps Covered
 Outcome
 
 This notebook demonstrates the fundamental steps for creating a neural network classifier using TensorFlow/Keras. It provides a clear introduction to deep learning concepts such as activation functions, feature scaling, one-hot encoding, and model evaluation.
+
+
+File: 4. Titanic-Neural_Network.ipynb
+
+This notebook builds a Neural Network classifier to predict Titanic passenger survival using TensorFlow/Keras. It extends the earlier Decision Tree approach by applying a deep-learning model for binary classification.
+
+Key Steps Covered
+- Loaded the Titanic dataset from a public URL
+- Dropped irrelevant or non-useful columns (PassengerId, Name, Ticket, Cabin)
+- Filled missing values for Age and Embarked
+- Converted categorical variables (Sex, Embarked) using one-hot encoding
+- Defined features (X) and target variable (y)
+- Split data into training and testing sets
+- Scaled numerical features using StandardScaler
+- Built a neural network with:
+   - Two dense hidden layers (ReLU activation)
+   - One output layer (sigmoid activation)
+- Compiled the model using binary crossentropy loss and Adam optimizer
+- Trained the network with validation split
+- Evaluated model performance using test loss and accuracy
+
+Outcome
+
+This notebook demonstrates how to apply a deep-learning approach to a classic binary classification problem. It provides a clear introduction to building, training, and evaluating neural networks using Keras, expanding beyond traditional machine learning methods.
