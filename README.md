@@ -19,3 +19,22 @@ Key Steps Covered
 Outcome
 This notebook demonstrates how to clean a real dataset and train a simple, interpretable machine learning model. It acts as a solid starting point for building more advanced models in future notebooks.
 
+
+File: HousePricePrediction.ipynb
+
+This notebook builds a Linear Regression model to predict house prices using key features such as area, number of bedrooms, and number of bathrooms. It demonstrates a complete regression workflow from data loading to model evaluation.
+
+Key Steps Covered
+- Imported and inspected the housing dataset
+- Selected features and target variable (price)
+- Prepared the dataset for regression modeling
+- Split data into training and testing sets
+- Trained a Linear Regression model
+- Generated predictions on the test set
+- Evaluated model performance using:
+- Mean Squared Error (MSE)
+- R-squared score (R²)
+
+Outcome
+
+This notebook highlights how Linear Regression can be used for predicting continuous values such as house prices. It serves as a foundational example for exploring more advanced regression techniques in future notebooks.
