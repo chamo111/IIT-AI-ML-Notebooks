@@ -20,7 +20,7 @@ Outcome
 This notebook demonstrates how to clean a real dataset and train a simple, interpretable machine learning model. It acts as a solid starting point for building more advanced models in future notebooks.
 
 
-File: 2. HousePricePrediction.ipynb
+## File: 2. HousePricePrediction.ipynb
 
 This notebook builds a Linear Regression model to predict house prices using key features such as area, number of bedrooms, and number of bathrooms. It demonstrates a complete regression workflow from data loading to model evaluation.
 
