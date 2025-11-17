@@ -1,7 +1,7 @@
 # IIT-AI-ML-Notebooks
 A curated set of notebooks developed during my IIT course, covering fundamental concepts, coding practice, and applied machine learning experiments.
 
-File: Titanic_DT.ipynb
+File: 1.Titanic_DT.ipynb
 
 This notebook explores the Titanic dataset and builds a Decision Tree Classifier to predict passenger survival. It includes a complete end-to-end machine learning workflow, covering everything from data preprocessing to model evaluation and visualization.
 
@@ -20,7 +20,7 @@ Outcome
 This notebook demonstrates how to clean a real dataset and train a simple, interpretable machine learning model. It acts as a solid starting point for building more advanced models in future notebooks.
 
 
-File: HousePricePrediction.ipynb
+File: 2.HousePricePrediction.ipynb
 
 This notebook builds a Linear Regression model to predict house prices using key features such as area, number of bedrooms, and number of bathrooms. It demonstrates a complete regression workflow from data loading to model evaluation.
 
@@ -38,3 +38,29 @@ Key Steps Covered
 Outcome
 
 This notebook highlights how Linear Regression can be used for predicting continuous values such as house prices. It serves as a foundational example for exploring more advanced regression techniques in future notebooks.
+
+
+File: 3_Iris_Dataset_Simple_Neural_Network.ipynb
+
+This notebook builds a simple Neural Network classifier using TensorFlow/Keras to classify the Iris dataset into its three species. It demonstrates the full deep-learning workflow, including preprocessing, one-hot encoding, neural network design, training, and evaluation.
+
+Key Steps Covered
+- Loaded the Iris dataset using sklearn.datasets
+- Converted the dataset into a Pandas DataFrame for inspection
+- Prepared the feature matrix (X) and labels (y)
+- Standardized the input features using StandardScaler
+- One-hot encoded the target labels using OneHotEncoder
+- Split the dataset into training and testing sets
+- Built a simple feed-forward neural network using Keras:
+    - Input layer
+    - Hidden layer with ReLU activation
+    - Output layer with softmax activation
+- Compiled the model using:
+    - Optimizer: Adam
+    - Loss: Categorical Crossentropy
+    - Metric: Accuracy
+- Trained the neural network and reviewed training performance
+
+Outcome
+
+This notebook demonstrates the fundamental steps for creating a neural network classifier using TensorFlow/Keras. It provides a clear introduction to deep learning concepts such as activation functions, feature scaling, one-hot encoding, and model evaluation.
