@@ -88,3 +88,24 @@ Key Steps Covered
 Outcome
 
 This notebook demonstrates how to apply a deep-learning approach to a classic binary classification problem. It provides a clear introduction to building, training, and evaluating neural networks using Keras, expanding beyond traditional machine learning methods.
+
+
+## File: 5. NLP_Basics.ipynb
+
+This notebook introduces the fundamental concepts of Natural Language Processing (NLP) using the NLTK library. It covers essential text-processing techniques such as tokenization, stemming, lemmatization, and stop-word removal—forming the core building blocks for more advanced NLP applications.
+
+Key Steps Covered
+- Imported NLTK and downloaded required tokenizers and corpora
+- Defined a sample text paragraph for testing NLP operations
+- Performed word tokenization using word_tokenize
+- Performed sentence tokenization using sent_tokenize
+- Calculated word and sentence counts
+- Iterated through sentences and words for structured token breakdown
+- Applied stemming using PorterStemmer
+- Downloaded POS taggers and performed lemmatization using WordNetLemmatizer
+- Mapped POS tags to WordNet format for accurate lemma generation
+- Prepared for stop-word removal (NLTK stopword methods)
+
+Outcome
+
+This notebook provides a clear, beginner-friendly introduction to core NLP preprocessing techniques. It lays the foundation for future notebooks involving text classification, sentiment analysis, vectorization, and deep-learning-based NLP models.
